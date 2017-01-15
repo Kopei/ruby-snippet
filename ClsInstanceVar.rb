@@ -9,12 +9,12 @@ end
 class BB < AA
 end
 
-obj = A.new
-A.read
+obj = AA.new
+AA.read
 obj.read
 obj.write
 obj.read
 
-objb= B.new
+objb= BB.new
 objb.read
-B.read
+BB.read
